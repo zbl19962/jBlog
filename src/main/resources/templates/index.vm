@@ -5,8 +5,8 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer"/>
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">java,scala,goLang:</h2>
-                    <p class="lead">They are three programming languages those i use most,and scala is my favorite</p>
+                    <h2 class="section-heading">Java,PHP,Python</h2>
+                    <p class="lead">这是我最喜欢的三种编程语言<br><br>挚爱Java<br>Write once,run anywhere!</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
                     <img class="img-responsive" src="/img/ipad.png" alt=""/>

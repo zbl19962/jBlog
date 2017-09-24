@@ -8,7 +8,8 @@
     <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet">
 </head>
 <body class="login-page">
-<div class="login-avatar" style="background: url($!{avatar}) no-repeat center center;" onmouseover="this.style.cursor='pointer'" onclick="document.location='/'">
+<div class="login-avatar" style="background: url($!{avatar}) no-repeat center center;"
+     onmouseover="this.style.cursor='pointer'" onclick="document.location='/'">
 </div>
 <div class="login-form">
     <div class="login-content">
@@ -18,7 +19,8 @@
                     <div class="input-group-addon">
                         <i class="fa fa-user"></i>
                     </div>
-                    <input type="text" class="form-control" name="username" id="username" placeholder="Username" autocomplete="off" />
+                    <input type="text" class="form-control" name="username" id="username" placeholder="用户名"
+                           autocomplete="off"/>
                 </div>
             </div>
             <div class="form-group">
@@ -26,14 +28,15 @@
                     <div class="input-group-addon">
                         <i class="fa fa-key"></i>
                     </div>
-                    <input type="password" class="form-control" name="passBefore" id="passBefore" placeholder="Password" autocomplete="off" />
+                    <input type="password" class="form-control" name="passBefore" id="passBefore" placeholder="密码"
+                           autocomplete="off"/>
                     <input type="hidden" name="password" id="password"/>
                 </div>
             </div>
             <div class="form-group">
                 <button type="submit" class="btn btn-primary btn-block btn-login" id="login-admin">
                     <i class="fa fa-sign-in"></i>
-                    Login In
+                    <span class="center">登录</span>
                 </button>
             </div>
         </form>
@@ -48,7 +51,7 @@
         #set($ii = 1)
         #set($ii = $!{success})
         #if($ii < 1)
-        setTimeout(function() {
+        setTimeout(function () {
             $.bootstrapGrowl("Please check your username or password!", {
                 type: 'danger',
                 align: 'center',
