@@ -1,5 +1,5 @@
 [github地址](https://github.com/jcalaz/jcalaBlog)
-## jcalaBlog个人博客网站
+## jBlog个人博客网站
 #### 所用技术:
  - springBoot 
  - springMVC: MVC框架
@@ -12,20 +12,7 @@
  - bootstrap: css/html框架
  - [editor.md: markdown编辑器](https://github.com/pandao/editor.md)
  - mysql:数据库
----
-#### 预览
-![Home](http://jcalaz.github.io/img/jcala_blog.index.jpg)
-![about](http://jcalaz.github.io/img/jcala_blog.about.jpg)
-
----
-##### 一键黑夜模式
-![dark about](http://jcalaz.github.io/img/jcala_blog.bkindex.jpg)
-![dark blog](http://jcalaz.github.io/img/jcala_blog.bkpost.jpg)
-
----
-##### 后台管理
-![博客列表](http://jcalaz.github.io/img/jcala_blog.adlist.jpg)
-![markdown编辑器](http://jcalaz.github.io/img/jcala_blog.adre.jpg)
+--- 
 
 #### 部署
 
