@@ -30,8 +30,7 @@ targetCompatibility = 1.7
 compileJava.dependsOn(processResources)
 jar {
     baseName = 'jBlog'
-    version = '1.0.2'
-    
+    version = '1.10.18'
 }
 configurations {
 //  compile.exclude module: "spring-boot-starter-tomcat"
